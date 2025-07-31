@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure Game</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Welcome, Dear Mookie!</h1>
+    <p class="intro">Its your daily life.</p>
+
+    <div class="story">
+      <h2>It's an holiday, and you're feeling excited!</h2>
+      <div class="choices">
+        <button onclick="makeChoice('A')">A. Eat breakfast.</button>
+        <button onclick="makeChoice('B')">B. Check your phone for messages.</button>
+        <button onclick="makeChoice('C')">C. Think about Soleman.</button>
+      </div>
+    </div>
+
+    <div class="game-progress">
+      <p id="outcome">Progress: <span id="progress">0%</span></p>
+    </div>
+    <div class="next-button">
+      <button onclick="nextStep()">Next</button>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
