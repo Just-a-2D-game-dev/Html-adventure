@@ -8,7 +8,7 @@ const story = [
     options: [
       { choice: "Eat breakfast.", outcome: "You eat breakfast, and it's DELICIOUS! But u didn't remember Soleman so your day started horribly!" },
       { choice: "Check your phone for messages.", outcome: "You receive tons of messages from friends and family. But you didn't text Soleman!"},
-      { choice: "Think about Soleman.", outcome: "I don't this you'll ever pick this, so IDK" }
+      { choice: "Think about Soleman.", outcome: "I don't think you'll ever pick this, so IDK." }
     ]
   },
   {
